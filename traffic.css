@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.traffic-signal {
+    width: 100px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #666;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#red-light {
+    top: 20px;
+}
+
+#yellow-light {
+    top: 140px;
+}
+
+#green-light {
+    top: 260px;
+}
+
+#traffic-status {
+    margin-top: 20px;
+}
